@@ -1,0 +1,26 @@
+@media (width > 1440px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        margin-bottom: 60px;
+    }
+    .box2{
+        width: 350px;
+        height: 600px;
+    }
+    .box1,.box3 {
+        margin-top: 20px;
+        width: 350px;
+        height: 560px;
+    }
+    .bcimagemobile {
+        display: none;
+    }
+    .desktoprightbc {
+        display: block;
+    }
+    .desktopleftbc {
+        display: block;
+    }
+}
